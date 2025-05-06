@@ -33,7 +33,13 @@ const Navbar = () => {
         <nav className="flex items-center justify-between px-2 md:px-14 py-4 border-b border-gray-300 bg-white relative transition-all">
 
        <NavLink to="/" onClick={() => setOpen(false)} className="flex items-center gap-2">
-            <img className="h-12" src={assets.logo} alt="logo" />
+       <div>
+        <p>
+            <span className="text-primary text-5xl px-1 py-0.5">Bingo</span>
+           
+        </p>
+       </div>
+            {/* <img className="h-12" src={assets.logo} alt="logo" /> */}
         </NavLink>
 
         {/* Desktop Menu */}
