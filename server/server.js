@@ -20,7 +20,7 @@ await connnectCloudinary()
 
 
 // // Allow multiple origins
-const allowedOrigins = ['http://localhost:5173','https://vercel.com/evisus-projects/front-backend-two']
+const allowedOrigins = ['http://localhost:5173','https://bingo-steel-kappa.vercel.app']
 
 // Middleware configuration
 app.use(express.json())
