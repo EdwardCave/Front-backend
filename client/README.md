@@ -13,3 +13,5 @@ If you are developing a production application, we recommend using TypeScript an
 
 ## npm i react-router-dom react-hot-toast
 ## npm install tailwindcss @tailwindcss/vite
+
+## navbar组件  prebuiltui.com
